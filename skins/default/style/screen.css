@@ -1,0 +1,9 @@
+/* -- Imported styles ----------------------------- */
+@import url("global.css");
+@import url("box.css");
+@import url("style.css");
+/* @import url("../../../vnt_upload/ckeditor/ck_style.css"); */
+
+.menuTab ul li a{
+    padding: 10px 7px !important;
+}

@@ -1,0 +1,19 @@
+.help-block{
+}
+
+.input-group-img {
+    width: 1%;
+    white-space: nowrap;
+    padding-left: 7px;
+    display: table-cell;
+    vertical-align: top;
+}
+.input-group-img img {
+    max-width: inherit;
+}
+.form-contact.v2{
+    margin-bottom: 0;
+}
+.form-contact.v2 .flexDesign {
+    align-items: flex-start;
+}

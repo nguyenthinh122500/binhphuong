@@ -1,0 +1,85 @@
+.gripService{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+.gripService .item{
+    width: calc(33.3333% - 4px);
+    margin-right: 4px;
+}
+.orTherAll .lstService .item .decs h3{
+    max-height: 40px
+}
+.thecontent{
+    margin-bottom: 30px;
+}
+.thecontent p{
+    padding: 0;
+    margin-bottom: 20px;
+}
+.thecontent p strong{
+    font-size: 16px;
+}
+.thecontent .row{
+    margin: 0 -5px;
+}
+.thecontent .row >div{
+    padding: 0 5px;
+}
+/*  */
+.frmInfoService{
+    margin-bottom: 35px;
+}
+.frmInfoService .title{
+    color: #1f487c;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.frmInfoService .group-form{
+    display: block;
+    margin-bottom: 20px;
+}
+.frmInfoService .group-form input, .frmInfoService .group-form select{
+    height: 45px;
+    padding: 0 10px;
+    border: 1px solid #e5e5e5;
+    width: 100%;
+}
+.frmInfoService .group-form textarea{
+    height: 45px;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    width: 100%;
+}
+.viewDetail button{
+    min-width: auto;
+    width: 100%;
+}
+@media all and (max-width: 991px){
+    .gripService .item{
+        width: calc(50% - 4px);
+        margin-bottom: 10px;
+    }
+    .gripService .item:nth-child(2n + 2){
+        margin-right: 0;
+    }
+    .frmInfoService .title{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .orTherAll .lstService .item .decs .vDetail{
+        display: none;
+    }
+}
+@media all and (max-width: 767px){
+    .gripService .item{
+        width: 100%;
+  
+    }
+    .viewDetail button{
+        max-width: 230px;
+    }
+}

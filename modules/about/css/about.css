@@ -1,0 +1,121 @@
+.boxAboutTop{
+    margin-bottom: 90px;
+}
+.boxAboutTop .grip{
+    display: flex;
+    justify-content: space-between;
+}
+.boxAboutTop .grip > div{
+    width: 50%;
+}
+.boxAboutTop .grip .itemThumb{
+    order: 2;
+}
+.boxAboutTop .grip .itemThumb img{
+    width: 100%;
+}
+.boxAboutTop .grip .itemDecs{
+    padding: 20px 10px;
+}
+.boxAboutTop .grip .itemDecs .vnt-about-left{
+    max-width: 470px;
+    margin: 0 auto;
+}
+.boxAboutTop .grip .itemDecs .titleAb .t1{
+    font-size: 18px;
+    line-height: 27px;
+    color: #666666;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.boxAboutTop .grip .itemDecs .titleAb .t2{
+    font-size: 55px;
+    line-height: 55px;
+    color: #223f91;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.boxAboutTop .grip .itemDecs .contentAb .decs{
+    color: #666666;
+}
+.boxAboutInfo{
+    position: relative;
+    padding: 110px 0 90px 0;
+    color: #fff;
+    overflow: hidden;
+}
+.boxAboutInfo::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-image: url(../images/bgalinfo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+.boxAboutcontent{
+    padding-top: 60px;
+    clear: both;
+}
+.boxAboutcontent h3{
+    font-size: 18px;
+    color: #223f91;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+.boxAboutcontent p{
+    padding: 0;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 991px){ 
+    .boxAboutTop .grip{
+        display: block;
+    }
+    .boxAboutTop .grip > div{
+        width: 100%;
+    }
+    .boxAboutTop{
+        margin-bottom: 60px;
+    }
+    .boxAboutTop .grip .itemDecs .titleAb .t1{
+        font-size: 16px;
+    }
+    .boxAboutTop .grip .itemDecs .titleAb .t2{
+        font-size: 48px;
+        line-height: 48px;
+    }
+    .boxAboutInfo{
+        padding: 40px 0 0 0;
+    }
+    .lstInfoAbout .row{
+        display: block;
+        vertical-align: top;
+    }
+    .lstInfoAbout .row > div{
+        float: none;
+        display: inline-block;
+        margin-left: -4px;
+        vertical-align: top;
+    }
+    .lstInfoAbout .row > div:nth-child(2n + 1){
+        margin-left: 0;
+    }
+    .lstInfoAbout .item{
+        margin-bottom: 40px;
+    }
+    .lstInfoAbout .item .name{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .lstInfoAbout .item .countNumber{
+        font-size: 35px;
+        line-height: 35px;
+    }
+}

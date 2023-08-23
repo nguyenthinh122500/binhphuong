@@ -1,0 +1,340 @@
+/* Map styling*/
+#ce_map_container{border:2px solid #CCC;background-color:#CCC ; font-size:12px;}
+#ce_map_canvas{width:100%;height:300px}
+#ce-directionsPanel{background-color:#FFF}
+/* Direction */
+#ce-map-cpanel-switch{padding:8px;font-size:120%;height:40px;margin-top:2px;
+    background:#444 url("../images/map-icon.png") no-repeat 20px center}
+#ce-map-cpanel-switch a.ce-route,
+#ce-map-cpanel-switch a.ce-route:visited{color:#FFF;display:block;float:left;margin:10px 0 0 65px}
+.ce-map-cpanel fieldset{border-color:#CCC;border-style:solid none none;border-width:1px 0 0;clear:both; margin:3px}
+.ce-map-cpanel fieldset legend{font-size:150%}
+.ce-map-cpanel div{ clear:left;display:block; width:100%}
+.ce-map-cpanel label{ }
+.ce-map-cpanel div.submit div,.ce-map-cpanel div.submit div button{display:inline}
+/* Coordinates*/
+#ce-map-coordinates{background-color:#F2EFE9;height:15px;margin-top:2px;padding:5px 0}
+#ce-map-coordinates div{float:left;width:49%;text-align:center}
+.ce-map-coord-label{font-weight:bolder}
+.ce-map-coord-value{}
+/* MAP: End*/
+.vnt-contact-c-page{
+    padding: 20px 0 30px;
+}
+.title_sm h2{
+    margin-bottom: 20px;
+    line-height: 1.4;
+    color: #223f91;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+.bl_contact_c{
+    margin-bottom: 40px;
+}
+.bl_contact_c:last-child{
+    margin-bottom: 0;
+}
+.bl_contact_c .style-contact{
+    background-color: #f5f5f5;
+    padding: 20px 15px;
+}
+.bl_contact_c .form-group p span{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+.bl_contact_c .form-group .flexRight{
+    text-align: center;
+    margin-top: 20px;
+}
+.bl_contact_c .form-group button{
+    padding: 10px 30px;
+    background-color: #223f91;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    border: none;
+}
+.info_contact{
+    max-width: 1170px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 22px;
+    min-height: 160px;
+    position: relative;
+    padding: 25px 180px 0;
+    margin: 0 auto;
+}
+.info_contact a{
+    font-size: 14px;
+    line-height: 22px;
+}
+.info_contact .name{
+    font-size: 18px;
+    line-height: 1.4;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.info_contact .upper{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.info_contact .before{
+    padding-left: 25px;
+    line-height: 1.4;
+    position: relative;
+    margin-bottom: 5px;
+    color: #555555;
+    display: block;
+    font-size: 15px;
+}
+.info_contact .before a{
+    color: #555555;
+}
+.info_contact .before:before{
+    position: absolute;
+    top:0;
+    left:0;
+    font-size: 16px;
+    color: #bbbbbb;
+    font-family: fontAwesome;
+}
+.info_contact .inline-block{
+    display: inline-block;
+    margin-right: 20px;
+}
+.info_contact .view_map{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.info_contact .view_map a{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 60px 10px 15px;
+    text-transform: uppercase;
+    color: #223f91;
+    background-color: #fff;
+    position: relative;
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    transition:all 0.5s ease;
+}
+.info_contact .view_map a:hover{
+    background-color: #0058a0;
+    -webkit-box-shadow: inset 0 0 3px #0058a0;
+    -moz-box-shadow: inset 0 0 3px #0058a0;
+    box-shadow: inset 0 0 3px #0058a0;
+    color: #fff;
+}
+.info_contact .view_map a:after{
+    position: absolute;
+    right: 20px;
+    font-family: "FontAwesome";
+    font-weight: bold;
+    content: "\f041";
+    top: 45%;
+    -webkit-transform:translate(0,-50%);
+    -moz-transform:translate(0,-50%);
+    -o-transform:translate(0,-50%);
+    -ms-transform:translate(0,-50%);
+    transform:translate(0,-50%);
+    font-size: 16px;
+}
+.info_contact .view_map a:hover:after{
+    color: #ffffff;
+}
+.info_contact .Qcode{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 160px;
+    padding: 20px;
+    background: #ffffff;
+}
+.info_contact .Qcode img{
+    width: 100%;
+}
+.form-contact label{
+    font-weight: 400;
+}
+.form-contact input, .form-contact textarea, .form-contact select {
+    width:100%;
+    background: #f5f5f5;
+    height: 40px;
+    padding-left: 30px;
+    border: solid 1px rgba(0,0,0,0.15);
+}
+.form-contact textarea {
+    height: 122px;
+    resize: none;
+    padding-top: 7px;
+}
+.map_wrapper .map_title ul:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.map_wrapper .map_title ul li {
+    list-style:none;
+    padding:0;
+    display:inline-block;
+    margin-bottom: 1px;
+}
+
+.map_wrapper .map_title ul li a {
+    display: block;
+    text-align:center;
+    text-decoration:none;
+    padding:14px 15px;
+    position:relative;
+    background:  transparent;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    transition:all 0.5s ease;
+    font-size: 16px;
+    line-height: 20px;
+    color: #666666;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.map_wrapper .map_title ul li:hover {
+    z-index:9999;
+}
+.map_wrapper {
+    margin-bottom: 0;
+    background: #f5f5f5;
+    padding: 0 9px 9px 9px;
+}
+.map_wrapper .map_title ul li:hover a,
+.map_wrapper .map_title ul li a.active {
+    color: #223f91;
+    background-color: transparent;
+    
+}
+.map_wrapper .tab_title{
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 600;
+    padding: 10px 15px;
+    overflow: hidden;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background: #223f91;
+    color: #fff;
+    position: relative;
+    display: none;
+}
+.map_wrapper .tab_title:after{
+    position: absolute;
+    width: 45px;
+    text-align: center;
+    font-family: FontAwesome;
+    top: 50%;
+    right: 0;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    font-size: 24px;
+    line-height: 30px;
+    content: '\f107';
+    font-weight: normal;
+}
+@media screen and (max-width: 1024px){
+    .info_contact {
+        padding: 0;
+        min-height: 0;
+    }
+    .info_contact .Qcode {
+        display: none;
+    }
+    .info_contact .view_map {
+        position: relative;
+        margin-top: 10px;
+        top: auto;
+        right: auto;
+        -webkit-transform: translate(0,0);
+        -moz-transform: translate(0,0);
+        -ms-transform: translate(0,0);
+        -o-transform: translate(0,0);
+        transform: translate(0,0);
+    }
+    .map_wrapper .map_title{
+        position: relative;
+    }
+    .map_wrapper .tab_title{
+        display: block;
+        text-transform: uppercase;
+    }
+    .map_wrapper .map_title ul{
+        position: absolute;
+        top: 44px;
+        left: 0;
+        right: 0;
+        z-index: 98;
+        background: #ffffff;
+        border-top: 1px solid #ececec;
+        display: none;
+    }
+    .map_wrapper .map_title.active ul{
+        display: block;
+    }
+    .map_wrapper .map_title ul li{
+        display: block;
+        border-bottom: 1px solid #ececec;
+    }
+    .map_wrapper .map_title ul li a{
+        padding: 10px 15px;
+        background: #ffffff;
+        border: 0;
+        text-align: left;
+        font-size: 14px;
+        line-height: 20px;
+        text-transform: none;
+    }
+    .map_wrapper .map_title ul li a.active{
+        color: #666666;
+        background-color: #ffffff;
+    }
+    .map_wrapper .map_title ul li:hover a.active {
+        color: #005991;
+        background-color: #ffffff;
+    }
+
+}
+@media screen and (max-width: 991px) {
+    .bl_contact_c{
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .title_sm h2{
+        font-size: 22px;
+    }
+    .bl_contact_c{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width: 996px) {
+    .bl_contact_c .flexDesign{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .bl_contact_c .flexDesign .flexLeft{
+        width: 70%;
+    }
+    .vnt-contact-c-page{
+        padding: 0 0 30px;
+    }
+}

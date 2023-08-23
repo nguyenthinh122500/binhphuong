@@ -1,0 +1,74 @@
+.boxAboutTop .grip .itemDecs {
+    padding: 20px 10px;
+    width: 100%!important;
+}
+.boxAboutTop .grip .itemDecs .vnt-about-left {
+    max-width: 100%!important;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:990px) {
+    .logo-img{
+        width: 70px;
+        height: 70px;
+    }
+}
+
+.linkPage{
+    padding-top: 100px;
+}
+
+.foot-right{
+    padding-top: 100px;
+}
+
+.addressFoot .linkPage li a{
+    text-decoration: none!important;
+}
+
+@media screen and (max-width:500px) {
+    .slick-slide1{
+        width: 31%!important;
+       
+    }
+    .foot-right{
+        padding-top: 30px;
+    }
+}
+
+
+
+@media screen and (max-width:730px) {
+    .src-img{
+        height: 70%!important;
+       
+    }
+    .support-hotline .div_title a:before {
+        display: block;
+    }
+}
+@media (max-width: 1040px){
+.support-hotline .div_title {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
+    right: 5px;
+    top: 170px;
+
+}
+}
+.box_mid .mid-title .titleL.line_top::before{
+    background-image: url(./../images/logo-1.png);
+}
+
+.orTherAll .titleOrther::before{
+    background-image: url(./../images/logo-1.png);
+}
+
+@media screen and(max-width:500px) {
+    .banner-img{
+        background-position: left!important;
+    }
+    
+}
